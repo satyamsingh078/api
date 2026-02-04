@@ -1,0 +1,63 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------------- Virtual Environment ----------------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------------- Environment Variables ----------------
+.env
+
+# ---------------- Logs ----------------
+*.log
+logs/
+
+# ---------------- OS Files ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- Editor / IDE ----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------- Testing / Coverage ----------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------------- Temporary Files ----------------
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ---------------- Flask ----------------
+instance/
+.webassets-cache
+
+# ---------------- Gunicorn ----------------
+gunicorn.pid
+
+# ---------------- Node (if ever used) ----------------
+node_modules/
+
+# ---------------- Render ----------------
+.render/
+
+# ---------------- Downloads / Media ----------------
+*.mp3
+uploads/
+temp/
