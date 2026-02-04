@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: voice-detection-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
